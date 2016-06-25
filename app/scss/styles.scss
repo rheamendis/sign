@@ -1,12 +1,26 @@
 $formtext :grey;
 $bordercol: red;
 
+
 body{
-
-  background-color: rgba(43, 50, 44, 0.2);
-
+  background-color: #801139;
+  /*  background-color: rgba(43, 50, 44, 0.2);
+  */
 }
-.container{
+#btn-s {
+  margin: auto;
+  display: block;
+  height: 50px;
+  width: 100px;
+  color: white;
+border-style: none;
+  background-color: greenyellow;
+  &:hover{
+    background-color: dimgrey;
+  }
+}
+
+.container-s{
 
  margin: 20px auto;
   height:percentage(60/100) ;
@@ -14,6 +28,8 @@ body{
  border-radius: 20px;
   background-color: white;
 }
+
+
 input {
   background-color: white;
   height: 50px;

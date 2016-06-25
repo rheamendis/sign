@@ -1,4 +1,10 @@
-$(document).ready(function () {
+$(document).ready(function(){
+   $(".container-s").hide();
 
-    $(".container").hide();
+    $("#btn-s").click(function () {
+        $(".container-s").show();
+    });
 });
+
+  
+
