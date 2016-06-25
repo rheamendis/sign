@@ -1,0 +1,41 @@
+$formtext :grey;
+$bordercol: red;
+
+body{
+
+  background-color: rgba(43, 50, 44, 0.2);
+
+}
+.container{
+
+ margin: 20px auto;
+  height:percentage(60/100) ;
+  width:percentage(50/100);
+ border-radius: 20px;
+  background-color: white;
+}
+input {
+  background-color: white;
+  height: 50px;
+  width: 250px;
+  margin: 10px;
+  color: $formtext;
+  border-style: none none solid none;
+  border-bottom-color: $bordercol ;
+
+
+}
+input:focus{outline: none;}
+.btn{
+  color: white;
+  background-color: #503580;
+  border: none;
+  cursor: pointer;
+
+}
+
+form{
+  padding-left: 20px;
+  color:$formtext;
+}
+

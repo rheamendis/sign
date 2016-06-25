@@ -1,0 +1,31 @@
+body {
+  background-color: rgba(43, 50, 44, 0.2); }
+
+.container {
+  margin: 20px auto;
+  height: 60%;
+  width: 50%;
+  border-radius: 20px;
+  background-color: white; }
+
+input {
+  background-color: white;
+  height: 50px;
+  width: 250px;
+  margin: 10px;
+  color: grey;
+  border-style: none none solid none;
+  border-bottom-color: red; }
+
+input:focus {
+  outline: none; }
+
+.btn {
+  color: white;
+  background-color: #503580;
+  border: none;
+  cursor: pointer; }
+
+form {
+  padding-left: 20px;
+  color: grey; }
