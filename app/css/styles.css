@@ -16,19 +16,32 @@ body {
 
 .container-s {
   margin: 20px auto;
-  height: 60%;
+  height: 80%;
   width: 50%;
   border-radius: 20px;
   background-color: white; }
+
+img {
+  border-radius: 20px; }
+
+#getst {
+  color: #000;
+  font-size: xx-large;
+  font-family: "Courier New"; }
 
 input {
   background-color: white;
   height: 50px;
   width: 250px;
-  margin: 10px;
   color: grey;
   border-style: none none solid none;
-  border-bottom-color: red; }
+  border-bottom-color: red;
+  position: relative;
+  display: block; }
+
+label {
+  display: inline-block;
+  padding-top: 1.5em; }
 
 input:focus {
   outline: none; }
@@ -40,5 +53,6 @@ input:focus {
   cursor: pointer; }
 
 form {
+  padding-top: 20px;
   padding-left: 20px;
   color: grey; }

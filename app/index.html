@@ -1,39 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:p="http://www.w3.org/1999/html">
 <head>
 
-    <script src="jquery-1.12.2.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
-        </script>
-    <script  src="main.js"></script>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SIGN UP</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
 <body>
 <div class ="container-fluid">
+
+
     <button type="button"  id="btn-s"> SIGN-UP </button>
 
-<div class="container-s">
+    <div class="container-s">
+        <div class="row">
+            <div class ="col-sm-6">
 
-<form method="post" action="">
+                <form  method="post" action="#" name="f" onsubmit="return validate(this)">
+                    WELCOME TO NESTOPIA
 
-   <input type="text" name="fname" placeholder="First Name"> <br>
+                    <p id="getst">GET STARTED </p>
+                    <label id="ename"> Enter valid name
+                        <input type="text" name="fname" id="name" placeholder="Full Name" required onblur="validate(f)">
+                    </label>
 
-    <input type="text" name="lname" placeholder="Last Name"><br>
+                    <br>
+                    <input type="text" name="email" placeholder="Email ID" required> <br>
+                    <p class="error"></p>
+                    <input type="password" name="pass" placeholder="Password" required> <br>
+                    <p class="error"></p>
 
-    <input type="text" name="email" placeholder="Email ID"> <br>
-
-    <input type="password" name="pass" placeholder="Password"> <br>
-
-
-<input type="submit" value="Sign-up" class="btn">
-
-</form>
+                    <input type="submit" value="Sign-up" class="btn">
+                </form>
+            </div>
+            <div class="col-sm-6">
+                <img src="1.jpg">
+            </div>
         </div>
+    </div>
 </div>
-
 </body>
 
+<script src="jquery-1.12.2.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
+
+</script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"> </script>
+<script  src="main.js"></script>
 </html>

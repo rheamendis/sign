@@ -7,6 +7,8 @@ body{
   /*  background-color: rgba(43, 50, 44, 0.2);
   */
 }
+
+//signup button
 #btn-s {
   margin: auto;
   display: block;
@@ -20,27 +22,44 @@ border-style: none;
   }
 }
 
+//the form container
 .container-s{
 
  margin: 20px auto;
-  height:percentage(60/100) ;
+  height:percentage(80/100) ;
   width:percentage(50/100);
  border-radius: 20px;
   background-color: white;
 }
 
+img{
+  border-radius: 20px;
+}
 
+#getst{
+  color: #000;
+  font-size: xx-large;
+  font-family:"Courier New";
+}
+
+//input tags
 input {
   background-color: white;
   height: 50px;
   width: 250px;
-  margin: 10px;
+  //margin: 10px;
   color: $formtext;
   border-style: none none solid none;
   border-bottom-color: $bordercol ;
-
-
+  position: relative;
+  display: block;
 }
+label{
+  display: inline-block;
+  padding-top: 1.5em;
+}
+
+//to remove the blue highlight
 input:focus{outline: none;}
 .btn{
   color: white;
@@ -51,6 +70,8 @@ input:focus{outline: none;}
 }
 
 form{
+
+  padding-top: 20px;
   padding-left: 20px;
   color:$formtext;
 }
