@@ -19,10 +19,11 @@ body {
   height: 80%;
   width: 50%;
   border-radius: 20px;
-  background-color: white; }
+  background-color: white;
+  overflow: hidden; }
 
 img {
-  border-radius: 20px; }
+  max-width: 100%; }
 
 #getst {
   color: #000;

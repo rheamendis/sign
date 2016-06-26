@@ -14,13 +14,17 @@ $(document).ready(function(){
 
 function validate (f)
 {
-    var patt_name = /^[A-Za-z0-9]{3,15}$/;
+    var patt_name = /^[A-Za-z0-9] {3,15}$/;
     //^[A-Za-z0-9]{3,15}$/;
+
+    var patt_email=/^[]/
+
+
     var name =f.fname.value;
 
     if (!patt_name.test(name)) {
-    alert("Invalid Name");
-        Document.getElementById('ename').style.visibility='hidden';
+    alert(name);
+      //  Document.getElementById('ename').style.visibility='hidden';
     }
 
 }
